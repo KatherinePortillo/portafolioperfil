@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    font-family: "Times new roman", Helvetica, sans-serif;
+}
+
+body {
+    margin: 15px;
+    padding: 10px;
+    background-color: black;
+}
+
+.nav1 {
+    width: 100%;
+    padding: 5px;
+    background-color: #81638b;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav1 div {padding: 40px;}
+
+.pp{font-size: 30px;}
+
+img {width: 40px;}
+
+.paisa {
+    width: 40px;
+    margin-left: 30px;
+}
+
+.nav2 {
+    width: 96.4%;
+    padding: 5px;
+    color: #222;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    background-color:#eae0ed;
+    position: fixed;
+    top: 0px;
+    left: 25px;
+    z-index: 1000;
+}
+
+a {
+    margin-right: 20px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+a:hover {background-color: #c397d1;}
+
+.imag {width: 100%;}
+
+.yo {
+    width: 250px;
+    position: absolute;
+    top: 100px;
+    left: 250px;
+}
+
+.img, text {position: relative;}
+
+.texto {
+    position: absolute;
+    top: 400px;
+    left: 600px;
+    font-size: 20px;
+    color:rgb(37, 24, 46);
+}
+
+.info {
+    background-color: #84648f;
+    padding: 10px;
+}
+
+.contenedor2 {
+    background-color: #a287aa;
+    width: 100%;
+    display: flex;
+    padding: 178px;
+    flex-direction: row;
+    gap: 76px;
+    justify-content: center;
+}
+
+.imgme {width: 200px;}
+
+.sobremi{position: relative;}
+
+.sobremi{
+    position: absolute;
+    top: 950px;
+    left: 600px;
+}
+
+p {
+    background-color: #9d65ae;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.dis {
+    padding: 10px;
+    background-color: #412449;
+    border-radius: 10px;
+}
+
+.contenedor3 {
+    width: 100%;
+    height: 670px;
+    background-color: #9b73a9;
+    padding: 200px;
+    left: 1000px;
+}
+
+ul {
+    background-color: #725485;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.habilidad {
+    text-align: center;
+    position: absolute;
+    top: 1800px;
+    left: 510px;
+}
+
+.contenedor4 {
+    width: 100%;
+    height: 50%;
+    background-color: #8c6bab;
+    padding: 200px;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: row;
+    background-color: #6a4f79;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.subti {
+    padding: 15px;
+}
+
+.titlecontac {
+    text-align: center;
+    font-size: 40px;
+    position: relative;
+    top: -100px;
+    left: 5px;
+}
+
+.mensaje{
+    font-size: 20px;
+}
+
+.formu {
+    display: flex;
+}
+
+.formup2, .formu, .formup2 {
+    height: 45px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.textarea {
+    height: 80px;
+    width: 100%;
+}
+
+.name {
+    margin-right: 10px;
+}
+
+.formup2 input, .formu input, .textarea textarea {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(123, 99, 133, 0.899);
+    border-radius: 6px;
+    outline: none;
+    padding: 0 15px;
+    font-size: 17px;
+    transition: all 0.3s ease;
+}
+
+.formup2 input:focus, .formu input:focus, .textarea textarea:focus {
+    border-color: #623479;
+}
+
+.textarea textarea {
+    padding-top: 10px;
+    resize: none;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+form .button button:hover {
+    color: #281930;
+    background: none;
+}
+
+.name, .email {
+    margin-bottom: 10px;
+    height: 30px;
+}
+
+form .button button {
+    display: block;
+    color: rgb(175, 144, 201);
+    width: 100%;
+    height: 45px;
+    outline: none;
+    font-size: 25px;
+    font-weight: 500;
+    border-radius: 6px;
+    cursor: pointer;
+    flex-wrap: nowrap;
+    background: #5c386c;
+    border: 2px solid #351e3d;
+    margin-top: 20px;
+}
